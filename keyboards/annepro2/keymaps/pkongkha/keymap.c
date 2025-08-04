@@ -41,12 +41,12 @@ enum anne_pro_layers {
     _______,           _______, _______,                            KC_NO,                              KC_MENU, _______, _______, _______
 ),
  [_CONF] = LAYOUT_60_ansi(
-/* | ESC  |     1     |     2     |     3     |    4      |     5     |        6        |  7   |  8   |      9       |       0      |      -       |       +      |  BSPC  | */
-    KC_NO, KC_AP2_BT1, KC_AP2_BT2, KC_AP2_BT3, KC_AP2_BT4, KC_AP2_USB, KC_AP2_BT_UNPAIR, KC_NO, KC_NO, KC_AP_RGB_MOD, KC_AP_RGB_TOG, KC_AP_RGB_VAD, KC_AP_RGB_VAI, KC_NO,
-    KC_NO, KC_NO,      KC_BRID,    KC_BRIU,    KC_NO,      KC_NO,      KC_NO,            KC_NO, KC_NO, KC_NO,         KC_PSCR,       KC_HOME,       KC_END,        KC_NO,
-    KC_NO, KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,            KC_NO, KC_NO, KC_NO,         KC_PGUP,       KC_PGDN,       KC_NO,
-    KC_NO,             KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,            KC_NO, KC_NO, KC_NO,         KC_INS,        KC_DEL,        KC_NO,
-    KC_NO,             KC_NO,      KC_NO,                              KC_NO,                                         KC_NO,         KC_NO,         KC_NO,         KC_NO
+/* |  ESC   |     1     |     2     |     3     |    4      |     5     |        6        |  7   |  8   |      9       |       0      |      -       |       +      |  BSPC  | */
+    KC_NO,   KC_AP2_BT1, KC_AP2_BT2, KC_AP2_BT3, KC_AP2_BT4, KC_AP2_USB, KC_AP2_BT_UNPAIR, KC_NO, KC_NO, KC_AP_RGB_MOD, KC_AP_RGB_TOG, KC_AP_RGB_VAD, KC_AP_RGB_VAI, KC_NO,
+    KC_NO,   KC_NO,      KC_BRID,    KC_BRIU,    KC_NO,      KC_NO,      KC_NO,            KC_NO, KC_NO, KC_NO,         KC_PSCR,       KC_HOME,       KC_END,        KC_NO,
+    KC_NO,   KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,            KC_NO, KC_NO, KC_NO,         KC_PGUP,       KC_PGDN,       KC_NO,
+    _______,             KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,            KC_NO, KC_NO, KC_NO,         KC_INS,        KC_DEL,        KC_NO,
+    _______,             _______,    _______,                            KC_NO,                                         _______,       _______,       _______,       _______
  ),
 };
 // clang-format on
